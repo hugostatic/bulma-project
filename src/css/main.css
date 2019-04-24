@@ -68,10 +68,16 @@ ABOUT
 .section-about {
     background-color:  #02040F;
 }
+
+.section-about h3 {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .about .about-single-element {
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .about .about-single-element p {
@@ -85,9 +91,63 @@ ABOUT
 }
 
 .fa-python {
-   color: hsl(271, 100%, 71%);
+   color: #662e9b;
 }
 
 .fa-coffee {
-    color:#03a9c2;
+    color:#43bccd;
+}
+
+/*
+PORTFOLIO
+*/
+.section-portfolio {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section-portfolio h3 {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-portfolio h5 {
+    color: #888888;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5.is-dark-grey  {
+    color: #333333;
+}
+
+
+
+
+.section-portfolio img {
+    margin : 18px 0 15px 0;
+}
+
+.section-portfolio .box  {
+    margin : 18px 0 15px 0;
+}
+
+.g1 {
+    background-color: #43bccd;
+}
+.g2 {
+    background-color: #b0db43;
+}
+.g3 {
+    background-color: #662e9b;
+}
+.g4 {
+    background-color: #1f0322;
+}
+.g5 {
+    background-color: hsl(348, 100%, 61%);
+}
+
+.grille-content {
+    color: #FFFFFF;
+    padding : 25px;
 }
