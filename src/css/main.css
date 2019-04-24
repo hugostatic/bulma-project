@@ -1,19 +1,20 @@
 /*
 HEADER
 */
-.header{
+.header {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
     height: 70px;
     line-height: 70px;
-    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0);
     position: fixed;
     top: 0;
+    z-index: 999;
 
 } 
 
-.header .header-logo{
+.header .header-logo {
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     float: left;
@@ -32,4 +33,61 @@ HEADER
 
 .header .header-menu a:hover {
     color: #3498db;
+}
+
+/*
+BANNER
+*/
+
+.banner{
+    margin-top: -24px;
+}
+
+.banner .banner-image {
+    position: relative;
+}
+
+.banner .banner-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+}
+
+.banner .banner-content h1, .banner .banner-content h2{
+    color: #FFFFFF;
+}
+
+.banner .banner-content h1 {
+    font-size: 4rem;
+}
+
+/*
+ABOUT
+*/
+.section-about {
+    background-color:  #02040F;
+}
+.about .about-single-element {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about .about-single-element p {
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.fa-laptop-code {
+    color: hsl(348, 100%, 61%);
+}
+
+.fa-python {
+   color: hsl(271, 100%, 71%);
+}
+
+.fa-coffee {
+    color:#03a9c2;
 }
