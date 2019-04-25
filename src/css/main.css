@@ -1,4 +1,14 @@
 /*
+GENERAL
+*/
+
+.titre-section {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/*
 HEADER
 */
 .header {
@@ -69,11 +79,6 @@ ABOUT
     background-color:  #02040F;
 }
 
-.section-about h3 {
-    color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .about .about-single-element {
     text-align: center;
     margin-top: 40px;
@@ -106,10 +111,13 @@ PORTFOLIO
     padding-bottom: 40px;
 }
 
-.section-portfolio h3 {
+ /*
+ .section-portfolio h3 {
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
+*/
 
 .section-portfolio h5 {
     color: #888888;
@@ -150,4 +158,29 @@ h5.is-dark-grey  {
 .grille-content {
     color: #FFFFFF;
     padding : 25px;
+}
+
+/*CONTACT*/
+.bulma-tag {
+    margin-top: 35px;
+}
+.bd-is-try-it-out {
+    margin-left: 100px;
+}
+
+/*FOOTER*/
+.footer h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer .footer-informations {
+    text-align: center;
+}
+
+.footer .footer-informations ul {
+    padding: 0;
+}
+
+.footer .footer-informations ul li {
+    display: inline-block;
 }
