@@ -73,6 +73,33 @@ BANNER
 }
 
 /*
+MODAL
+*/
+
+ .modal-wrap {
+    top: 25%;
+} 
+
+.modal iframe {
+    height: 315px;
+}
+
+.modal-head-bg {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#modal-page .modal-card-body {
+    background-color: #000000;
+    padding: 0;
+    width: 560px;
+}
+
+#close-modal {
+    margin: 0 55px 10px 0;
+
+}
+
+/*
 ABOUT
 */
 .section-about {
@@ -92,15 +119,15 @@ ABOUT
 }
 
 .fa-laptop-code {
-    color: hsl(348, 100%, 61%);
+    color: #4111D1;
 }
 
 .fa-python {
-   color: #662e9b;
+   color:  hsl(348, 100%, 61%);
 }
 
 .fa-coffee {
-    color:#43bccd;
+    color: #52E9E8;
 }
 
 /*
@@ -110,14 +137,6 @@ PORTFOLIO
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
- /*
- .section-portfolio h3 {
-    color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
-*/
 
 .section-portfolio h5 {
     color: #888888;
@@ -140,13 +159,13 @@ h5.is-dark-grey  {
 }
 
 .g1 {
-    background-color: #43bccd;
+    background-color: #52E9E8;
 }
 .g2 {
     background-color: #b0db43;
 }
 .g3 {
-    background-color: #662e9b;
+    background-color: #4111D1;
 }
 .g4 {
     background-color: #1f0322;
@@ -160,7 +179,28 @@ h5.is-dark-grey  {
     padding : 25px;
 }
 
-/*CONTACT*/
+/*
+TEST
+*/
+.section-test {
+    background: linear-gradient(90deg, #4111D1,#52E9E8);
+    /* background: -webkit-linear-gradient(90deg, rgb(2, 2, 98), rgb(176, 7, 169));
+    background: linear-gradient(90deg, rgb(2, 2, 98), rgb(176, 7, 169)); */
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.section-test h1 {
+    color: #FFFFFF;
+}
+
+.section-test iframe{
+    height: 400px;
+}
+
+/*
+CONTACT
+*/
 .bulma-tag {
     margin-top: 35px;
 }

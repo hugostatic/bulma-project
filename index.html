@@ -42,11 +42,24 @@
                 <div class="banner-content">
                     <h1 class="title is-1">Bienvenue sur mon Portfolio</h1>
                     <h2 class="subtitle is-4">Découvrez mes Créations et mon Univers !</h2>
-                    <button class="button is-danger">Contactez moi !</button>
+                    <button class="button is-danger" id="bt-modal">Voir la vidéo</button>
                 </div>    
             </div>
         </section>
-        <!--    banner -->
+        <!--    banner  -->
+        
+        <!--    MODAL   -->
+        <div class="modal" id="modal-page">
+            <div class="modal-background"></div>
+            <div class="modal-card modal-wrap">
+                <header class=" modal-head-bg has-text-right">
+                    <button class="delete" aria-label="close" id="close-modal"></button>
+                </header>
+                <div class="modal-card-body has-text-centered">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BXArjoEmVa0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                </div>
+            </div>
+        </div>
+        <!--    MODAL   -->
 
         <!--    section  : à propos   -->
         <section class="section-about"> 
@@ -180,10 +193,21 @@
         </section>
         <!--    Portfolio   -->
 
+        <!--    PLAYGROUND    -->
+        <section class="section-test">
+            <img class="bd-is-try-it-out" src="src/img/try-it-out.png" width="150" height="65">
+            <div class="container">
+                <content>
+                    <h1 class="title is-1">## Playground ##</h1>
+                    <script async src="//jsfiddle.net/jmarck4/7vxLqj04/1/embed/html,css,result/dark/"></script>
+                </content>
+            </div>
+        </section>
+        <!--    PLAYGROUND    -->
+
         <!--    Contact    -->
         
         <footer class="footer">
-            <img class="bd-is-try-it-out" src="src/img/try-it-out.png" width="150" height="65">
             <div class="container">
                 <h2 class="title is-2">Contactez-moi</h2>
                 <div class="columns">
