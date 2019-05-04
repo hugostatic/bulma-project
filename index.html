@@ -4,6 +4,8 @@
     <!--    head    -->
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Mon Portfolio</title>    
         
         <!--    CSS     -->
@@ -22,9 +24,23 @@
     <body>
 
         <!--    header -->
-        <div class="block"> 
+        <header class="header">
+            <div class="main-menu-area">
+                <div class="container">
+                    <div class="columns">
+                        <div class="column">
+
+                        </div>
+                        <div class="column">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>    
+        <!-- <div class="block"> 
             <header class="header">
-                <a href="#" class="header-logo">Mon Portfolio</a>
+                <a href="#" class="header-logo is-size-5">Mon Portfolio  </a>
                 <nav class="header-menu">
                     <a href="#">Accueil</a>
                     <a href="#">A propos</a>
@@ -32,21 +48,35 @@
                     <a href="#">Contact</a>
                 </nav>
             </header>
-        </div>
+        </div> -->
         <!--    header -->
 
-        <!--    banner -->
-        <section> 
-            <div class="banner">
-                <img src="src/img/bg.jpg" alt="des confettis colorés" class="banner-image"> 
-                <div class="banner-content">
-                    <h1 class="title is-1">Bienvenue sur mon Portfolio</h1>
-                    <h2 class="subtitle is-4">Découvrez mes Créations et mon Univers !</h2>
-                    <button class="button is-danger" id="bt-modal">Voir la vidéo</button>
-                </div>    
+         <!--    HERO SECTION  -->
+        <section class="hero is-fullheight is-default is-bold">
+                  
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-vcentered">
+                        <div class="column is-5 is-offset-1 landing-caption">
+                            <h1 class="title is-1 is-bold is-spaced">
+                                Manage, Deploy.
+                            </h1>
+                            <h2 class="subtitle is-5 is-muted">Lorem ipsum sit dolor amet is a dummy text used by typography industry </h2>
+                            <p>
+                                <button class="button is-danger" id="bt-modal">Voir la vidéo</button>
+                            </p>
+                        </div>
+                        <div class="column is-5 is-offset-1">
+                            <figure class="image is-4by3">
+                                <img src="src/img/worker.svg" alt="Description">
+                            </figure>
+                        </div>
+        
+                    </div>
+                </div>
             </div>
         </section>
-        <!--    banner  -->
+        <!--    HERO SECTION  -->
         
         <!--    MODAL   -->
         <div class="modal" id="modal-page">
@@ -265,9 +295,10 @@
             
         </footer>
         <!--    Contact    -->
-
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="/src/js/main.js"></script>
+        
         
     </body>
     <!--    body    -->

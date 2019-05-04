@@ -8,6 +8,24 @@ GENERAL
     text-align: center;
 }
 
+
+
+/* ========================================================================== Hero styles ========================================================================== */
+.hero-body {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.hero-body .title, .hero-body .subtitle {
+    font-family: 'Open Sans', sans-serif;
+}
+.hero-body .title.is-bold {
+    font-weight: 700;
+}
+.hero-body .subtitle.is-muted {
+    color: #999;
+}
+
+
 /*
 HEADER
 */
@@ -25,20 +43,21 @@ HEADER
 } 
 
 .header .header-logo {
-    color: #FFFFFF;
+    color: #000000;
     font-family: 'Montserrat', sans-serif;
     float: left;
     margin-left: 30px;
 }
 
 .header .header-menu {
+    font-family: 'Montserrat', sans-serif;
     float: right;
     margin-right: 30px;
 }
 
 .header .header-menu a {
     margin-right: 15px;
-    color: #FFFFFF; 
+    color: #000000; 
 }
 
 .header .header-menu a:hover {
@@ -49,7 +68,7 @@ HEADER
 BANNER
 */
 
-.banner{
+/* .banner{
     margin-top: -24px;
 }
 
@@ -70,7 +89,7 @@ BANNER
 
 .banner .banner-content h1 {
     font-size: 4rem;
-}
+} */
 
 /*
 MODAL
