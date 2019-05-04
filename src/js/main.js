@@ -25,9 +25,9 @@ $(document).ready(function() {
     }
 
 
-    
 
-    // open modal
+
+    // open modal --
     $('#bt-modal').click(function() {
         $('#modal-page').css(
             {
